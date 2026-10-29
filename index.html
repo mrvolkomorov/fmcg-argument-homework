@@ -203,6 +203,14 @@ th {
   font-weight: 600;
 }
 td.small { font-size: 13px; color: #4b5563; }
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 16px 0;
+}
+.table-scroll table {
+  margin: 0;
+}
 .deadline {
   font-weight: 700;
   color: #92400e;
@@ -246,6 +254,7 @@ footer {
 
 <section>
 <h2>Сроки</h2>
+<div class="table-scroll">
 <table>
 <thead>
 <tr><th>Часть</th><th>Что делаем</th><th>Срок</th></tr>
@@ -263,6 +272,7 @@ footer {
 </tr>
 </tbody>
 </table>
+</div>
 <div class="note">
 <p style="margin-bottom:8px"><strong>Паспорт нужен уже на неделе 6 — 5 ноября.</strong> Из его строк на следующей практике собираем ответы на возражения закупщиков.</p>
 <p style="margin-bottom:0"><strong>Симуляцию разбираем на неделе 8 — 19 ноября.</strong> Лог сдаём заранее, чтобы разбор шёл по вашим живым диалогам.</p>
@@ -352,6 +362,7 @@ footer {
 <h3>Шаг 2 · Заполните паспорт</h3>
 <p>Пять колонок, не больше пяти строк. Каждая строка — самостоятельный аргумент, который можно достать в нужный момент переговоров, а не зачитывать списком.</p>
 
+<div class="table-scroll">
 <table>
 <thead>
 <tr><th>Факт</th><th>Источник и дата</th><th>Связь с моей категорией</th><th>Формулировка для байера</th><th>Выгода сети</th></tr>
@@ -370,6 +381,7 @@ footer {
 <tr><td class="small">&nbsp;</td><td class="small">&nbsp;</td><td class="small">&nbsp;</td><td class="small">&nbsp;</td><td class="small">&nbsp;</td></tr>
 </tbody>
 </table>
+</div>
 
 <p>Первые три колонки заполняете вы — это ваши данные и ваша категория. За две последние отвечает модель:</p>
 
@@ -453,6 +465,7 @@ footer {
 
 <section>
 <h2>Критерии зачёта: пять ответов «да»</h2>
+<div class="table-scroll">
 <table>
 <thead><tr><th style="width:48px">№</th><th>Критерий</th><th style="width:84px">Да / нет</th></tr></thead>
 <tbody>
@@ -463,6 +476,7 @@ footer {
 <tr><td><strong>Б2</strong></td><td class="small">Показано, какая строка сломалась, на что заменена и чем закончился повторный прогон</td><td class="small">☐</td></tr>
 </tbody>
 </table>
+</div>
 <div class="note" style="margin-bottom:0"><strong>Рубрику байера проваливать можно.</strong> Зачёт ставим за честный разбор и исправленную строку, а не за выигранные переговоры. Если подыгрывать себе в симуляции ради зачёта, тренажёр перестаёт работать. Нет зачёта по одному из пунктов — дорабатываете по комментарию до недели 8.</div>
 </section>
 
@@ -498,6 +512,7 @@ footer {
 <h2>Задание со звёздочкой (по желанию)</h2>
 <p>Найдите своё последнее письмо в сеть о повышении цены. Обезличьте его и перепишите по формуле четырёх звеньев, используя строки паспорта: <strong>открывает рынок, закрывает выгода сети</strong>. Ваше предложение в ней — только третье звено из четырёх.</p>
 <p>Пришлите в чат две версии рядом — «было» и «стало». Лучшие пары разберём на неделе 6 как образцы для всей группы.</p>
+<div class="table-scroll">
 <table>
 <thead><tr><th style="width:44px">Звено</th><th>Что это</th><th>Откуда берём</th></tr></thead>
 <tbody>
@@ -507,6 +522,7 @@ footer {
 <tr><td><strong>04</strong></td><td class="small">Выгода сети</td><td class="small">Практика 2, промпт 2 — помощник</td></tr>
 </tbody>
 </table>
+</div>
 </section>
 
 <section>
